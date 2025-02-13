@@ -1,0 +1,12 @@
+name: "Tarım Veri Analizi Crew'u"
+description: "Tarım verilerini analiz eden ve raporlayan uzman ekip"
+agents:
+  - source_researcher
+  - data_analyst
+  - report_writer
+tasks:
+  - find_source_task
+  - analyze_data_task
+  - create_report_task
+process: sequential
+verbose: true 

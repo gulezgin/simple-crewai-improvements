@@ -1,0 +1,26 @@
+find_source_task:
+  description: |
+    1. Kullanıcının sorgusunu analiz et
+    2. Sorguya en uygun veri kaynaklarını belirle
+    3. Kaynakların güvenilirliğini ve güncelliğini kontrol et
+    4. En uygun kaynağı seç ve seçim gerekçesini açıkla
+  agent: source_researcher
+  expected_output: "Seçilen kaynak, URL'si ve seçim gerekçesi"
+
+analyze_data_task:
+  description: |
+    1. Seçilen kaynaktaki verileri analiz et
+    2. Temel istatistikleri çıkar
+    3. Trendleri belirle
+    4. Önemli bulguları işaretle
+  agent: data_analyst
+  expected_output: "Detaylı veri analizi raporu"
+
+create_report_task:
+  description: |
+    1. Analiz sonuçlarını derle
+    2. Anlaşılır bir format oluştur
+    3. Önemli noktaları vurgula
+    4. Görsel öğeler ekle
+  agent: report_writer
+  expected_output: "Son kullanıcı raporu" 
